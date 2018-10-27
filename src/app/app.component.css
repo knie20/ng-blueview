@@ -1,7 +1,24 @@
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 table{
     width: 50%;
 }
-h2{
+th.mat-sort-header-sorted {
+    color: black;
+}
+.example-container {
+    height: 400px;
+    overflow: auto;
+}
+.mat-form-field {
+    font-size: 14px;
+    width: 50%;
     text-align: center;
+    background-color: grey;
+}
+.mat-toolbar-row{
+    flex-direction: column !important;
+    padding-top: 16px;
+    font-size: 140%;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
 }
