@@ -1,5 +1,6 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 table{
-    width: 100%;
+    width: 50%;
 }
 h2{
     text-align: center;

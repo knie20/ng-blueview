@@ -12,15 +12,12 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
-    MatFormFieldModule, 
-    MatInputModule, 
-    MatPaginatorModule, 
-    MatTableModule, 
-    MatSortModule 
+     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, 
+    AppRoutingModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
