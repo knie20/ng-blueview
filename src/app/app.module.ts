@@ -4,13 +4,23 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+
+import { MatFormFieldModule, MatInputModule, MatPaginatorModule, MatTableModule, MatSortModule } from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatPaginatorModule, 
+    MatTableModule, 
+    MatSortModule 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
